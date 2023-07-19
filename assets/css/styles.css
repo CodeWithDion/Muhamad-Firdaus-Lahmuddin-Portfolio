@@ -780,5 +780,61 @@ button {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
+@media only screen and (max-width: 350px) {
+  .container {
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
+  }
+
+  .nav__menu {
+    padding: 2rem .25rem 4rem;
+  }
+
+  .nav__list {
+    column-gap: 0;
+  }
+
+  .home__content {
+    grid-template-columns: .25fr 3fr;
+  }
+
+  .home__img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .about__info-container {
+    padding: .7rem;
+  }
+
+  .about__info-title {
+    font-size: var(--normal-font-size);
+  }
+
+  .about__info-name {
+    font-size: .6rem;
+  }
+
+  .skills__title {
+    font-size: var(--normal-font-size);
+  }
+
+  .skills__img-container {
+    width: 40px;
+  }
+
+  .skills__name {
+    font-size: var(--smaller-font-size);
+  }
+
+  .qualification__data {
+    gap: .5rem;
+  }
+
+  .project__img {
+    width: 200px;
+  }
+}
+
 /* For medium devices */
 /* For large devices */
