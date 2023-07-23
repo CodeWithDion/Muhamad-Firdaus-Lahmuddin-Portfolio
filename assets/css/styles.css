@@ -755,6 +755,37 @@ button {
   color: #fff;
 }
 
+/*==================== THANK YOU ====================*/
+.thankyou__container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyou__content {
+  max-width: 568px;
+}
+
+.thankyou__button:hover .button__icon {
+  transform: translate(.25rem);
+}
+
+.thankyou__title {
+  font-size: var(--big-font-size);
+}
+
+.thankyou__subtitle {
+  font-size: var(--h3-font-size);
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-0-75);
+}
+
+.thankyou__description {
+  margin-bottom: var(--mb-2);
+}
+
 
 /*========== SCROLL UP ==========*/
 .scrollup {
